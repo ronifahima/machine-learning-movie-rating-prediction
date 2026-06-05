@@ -137,9 +137,9 @@ All metrics were computed using 10-Fold Cross Validation.
 ## Data Leakage Prevention
 
 The following fields are strictly excluded from all features:
-- `averageRating` — target variable
-- `numVotes` — accumulates after release
-- `BoxOffice` — accumulates after release
+- `averageRating` - target variable
+- `numVotes` - accumulates after release
+- `BoxOffice` - accumulates after release
 
 All preprocessing (imputation, scaling, encoding) is performed inside the Pipeline, fitted on training folds only. No data leakage.
 
