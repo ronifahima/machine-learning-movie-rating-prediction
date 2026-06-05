@@ -162,12 +162,3 @@ Feature importance was analyzed using:
 - `RandomForestRegressor`
 
 ---
-
-## AI Usage Log
-
-Claude (Anthropic) was used for:
-- Pipeline design consultation and data leakage prevention
-- Code debugging and error resolution
-- Report writing assistance
-
-All code was reviewed, validated and understood by the submitters.
