@@ -28,7 +28,7 @@ Build a model that predicts a movie's average IMDb rating (`averageRating`) befo
 
 ## Dataset
 
-The dataset is a CSV file containing movie-level data collected from IMDb and additional external sources. After cleaning invalid values, handling missing data, and engineering new features via the prepare_data() function, the dataset was prepared for analysis and used for training and evaluating the prediction models.
+```The dataset is a CSV file containing information about movies collected from IMDb and additional external sources. After cleaning invalid values, handling missing data, and engineering new features via the prepare_data() function, the dataset was prepared for analysis and used for training and evaluating the prediction models.
 ---
 
 ## How to Run
